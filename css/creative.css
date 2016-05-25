@@ -189,7 +189,6 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
     text-align: center;
 }
 
@@ -205,10 +204,20 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    font-family: "Palatino Linotype";
+    font-style: normal;
+    margin-bottom: 20px;
     font-size: 30px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.9);
+}
+
+header .header-content .header-content-inner i .lquote{
+    padding-right:25em;
+}
+
+header .header-content .header-content-inner i .rquote{
+    padding-left:25em;
 }
 
 @media(min-width:768px) {
@@ -220,7 +229,7 @@ header .header-content .header-content-inner p {
         position: absolute;
         top: 50%;
         padding: 0 50px;
-        transform: translateY(-50%);
+        /*transform: translateY(0%);*/
     }
 
     header .header-content .header-content-inner {
